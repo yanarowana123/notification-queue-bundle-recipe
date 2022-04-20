@@ -7,6 +7,8 @@
   "branch": "dev",
   "is_contrib": true,
   "_links": {
-    "repository": "git@gitlab.com:likebusiness/toolbox/notification-queue.git"
+    "repository": "gitlab.com/likebusiness/toolbox/notification-queue",
+    "origin_template": "{package}:{version}@gitlab.com/yanarowana123/likebusiness/toolbox/notification-queue:dev",
+    "recipe_template": "https://api.gitlab.com/repos/yanarowana123/likebusiness/toolbox/notification-queue/contents/{package_dotted}.{version}.json"
   }
 }
