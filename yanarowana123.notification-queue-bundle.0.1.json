@@ -1,0 +1,36 @@
+{
+  "manifests": {
+    "yanarowana123/notification-queue-bundle": {
+      "manifest": {
+        "bundles": {
+          "yanarowana123\\NotificationQueueBundle": [
+            "all"
+          ]
+        },
+        "copy-from-recipe": {
+          "config/": "%CONFIG_DIR%"
+        },
+        "env": {
+          "GAR_DISTRIBUTOR_ID": "000000000_0000000000000000",
+          "GAR_SSL_CERT": "/path/to/cert.pem",
+          "GAR_SSL_KEY": "/path/to/cert.key"
+        }
+      },
+      "files": {
+        "config/packages/notification_queue.yaml": {
+          "contents": [
+            "edumedia_gar_api:",
+            "  distributor_id: '%env(GAR_DISTRIBUTOR_ID)%'",
+            "  ssl_cert: '%env(GAR_SSL_CERT)%'",
+            "  ssl_key: '%env(GAR_SSL_KEY)%'",
+            "  remote_env: 'preprod'",
+            "  cache_directory: '%kernel.cache_dir%/gar-cache'"
+          ],
+          "executable": false
+        }
+      },
+      "ref": "7405f3af1312d1f9121afed4dddef636c6c7ff00"
+    }
+  }
+}
+
