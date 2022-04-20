@@ -4,7 +4,7 @@
       "manifest": {
         "bundles": {
           "Yanarowana123\\NotificationQueueBundle\\NotificationQueueBundle": [
-            "all"
+            "test"
           ]
         },
         "copy-from-recipe": {
