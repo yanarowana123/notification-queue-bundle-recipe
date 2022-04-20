@@ -3,7 +3,7 @@
     "yanarowana123/notification-queue-bundle": {
       "manifest": {
         "bundles": {
-          "yanarowana123\\NotificationQueueBundle": [
+          "Yanarowana123\\NotificationQueueBundle": [
             "all"
           ]
         },
