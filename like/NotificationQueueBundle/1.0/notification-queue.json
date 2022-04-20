@@ -1,6 +1,6 @@
 {
   "manifests": {
-    "like/notification-queue-bundle": {
+    "like/notification-queue": {
       "manifest": {
         "bundles": {
           "Like\\NotificationQueueBundle": [
