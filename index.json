@@ -8,7 +8,7 @@
   "is_contrib": false,
   "_links": {
     "repository": "github.com/yanarowana123/notification-queue-bundle-recipe",
-    "origin_template": "{package}:{version}@github.com/yanarowana123/notification-queue-bundle-recipe:main",
+    "origin_template": "{package}:{version}@github.com/yanarowana123/notification-queue-bundle-recipe:master",
     "recipe_template": "https://api.github.com/repos/yanarowana123/notification-queue-bundle-recipe/contents/yanarowana123.notification-queue-bundle.0.1.json"
   }
 }
